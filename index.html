@@ -1,12 +1,12 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <meta charset='utf-8'>
+<html><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
 
-    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen" />
-    <link rel="stylesheet" type="text/css" href="stylesheets/pygment_trac.css" media="screen" />
-    <link rel="stylesheet" type="text/css" href="stylesheets/print.css" media="print" />
+    <link rel="stylesheet" type="text/css" href="Noread%20by%20lipki_fichiers/stylesheet.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="Noread%20by%20lipki_fichiers/pygment_trac.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="Noread%20by%20lipki_fichiers/print.html" media="print">
 
     <title>Noread by lipki</title>
   </head>
@@ -17,22 +17,21 @@
       <div class="container">
         <h1>Noread</h1>
         <h2>Un simple favoris pour masquer les vidéos vues sur NOCO</h2>
-
-        <section id="downloads">
-          <a href="https://github.com/lipki/Noread/zipball/master" class="btn">Download as .zip</a>
-          <a href="https://github.com/lipki/Noread/tarball/master" class="btn">Download as .tar.gz</a>
-          <a href="https://github.com/lipki/Noread" class="btn btn-github"><span class="icon"></span>View on GitHub</a>
-        </section>
       </div>
     </header>
 
     <div class="container">
       <section id="main_content">
-        <p>Glisser déposer ce lien --&gt; <a>NOCO - noread</a> &lt;-- dans votre barre de favori.
-Une fois sur Noco, un clic sur ce favoris, fera apparaitre un bouton à côté du moteur de recherche (avec un œil dedans), pour afficher/masquer les vidéos vues.</p>
+        <p>
+          Glisser déposer ce lien --&gt; <a src="javascript:(function(){if($('.tr').length==0){$('#menu-right').append('<ul><li><img id="tr" class="tr" src="http://noco.tv/cdata/images/mark-read.png" style="vertical-align: sub; padding: 4px 10px;"></li></ul>');b = $('#tr');b.view=true;b.click(function(){b.view=!b.view;if(b.view){b.parents('ul').css('background','none');$('.mark_read').show('slow')}else{b.parents('ul').css('background','#9EC70F');$('.mark_read').hide('slow')}})}})()" >NOCO - noread</a> &lt;-- 
+          dans votre barre de favori.
+          Une fois sur Noco, un clic sur ce favoris, fera apparaitre un bouton à 
+          côté du moteur de recherche (avec un œil dedans), pour afficher/masquer 
+          les vidéos vues.
+        </p>
 
-<p>Testé pendant deux minutes sur un seul navigateur. Garanti sans bug connu </p>
-
+        <p>Testé pendant deux minutes sur un seul navigateur. Garanti sans bug connu </p>
+        
 <pre><code>javascript:(function(){
     if($('.tr').length==0){
         $('#menu-right').append('&lt;ul&gt;&lt;li&gt;&lt;img id="tr" class="tr" src="http://noco.tv/cdata/images/mark-read.png" style="vertical-align: sub; padding: 4px 10px;"&gt;&lt;/li&gt;&lt;/ul&gt;');
@@ -55,5 +54,5 @@ Une fois sur Noco, un clic sur ce favoris, fera apparaitre un bouton à côté d
     </div>
 
     
-  </body>
-</html>
+  
+</body></html>
